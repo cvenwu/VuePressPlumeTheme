@@ -1,3 +1,12 @@
+/*
+ * @Author: cvenwu yirufeng@foxmail.com
+ * @Date: 2024-10-11 11:04:01
+ * @LastEditors: cvenwu yirufeng@foxmail.com
+ * @LastEditTime: 2024-10-12 11:17:00
+ * @Description: 
+ * 
+ * Copyright (c) 2024 by yirufeng@foxmail.com, All Rights Reserved. 
+ */
 import { defineThemeConfig } from 'vuepress-theme-plume'
 import { enNavbar, zhNavbar } from './navbar'
 import { enNotes, zhNotes } from './notes'
@@ -14,7 +23,7 @@ export default defineThemeConfig({
   appearance: true,
 
   social: [
-    { icon: 'github', link: '/' },
+    { icon: 'github', link: 'https://github.com/cvenwu' },
   ],
 
   locales: {

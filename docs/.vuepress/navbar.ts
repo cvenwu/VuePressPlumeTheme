@@ -3,11 +3,32 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 export const zhNavbar = defineNavbarConfig([
   { text: '首页', link: '/' },
   { text: '博客', link: '/blog/' },
-  { text: '标签', link: '/blog/tags/' },
-  { text: '归档', link: '/blog/archives/' },
+  { text: '数据结构与算法', link: '/blog/tags/' },
+  { text: '基础', link: '/blog/archives/' },
   {
-    text: '笔记',
-    items: [{ text: '示例', link: '/notes/demo/README.md' }]
+    text: '基础2',
+    icon: 'material-symbols:bookmarks-outline',
+    items: [
+      { text: '计算机网络', link: '/notes/network/', icon: '' },
+      { text: '操作系统', link: '/notes/os/', icon: '' },
+      { text: 'Mysql', link: '/notes/mysql/', icon: '' },
+      { text: 'Redis', link: '/notes/redis/', icon: '' },
+      { text: 'Linux', link: '/notes/linux/', icon: '' },
+      { text: 'Go语言', link: '/notes/go/', icon: '' },
+      { text: 'Kafka', link: '/notes/kafka/', icon: '' },
+      { text: 'Nginx', link: '/notes/nginx/', icon: '' },
+    ],
+  },
+  {
+    text: '软技能',
+    icon: 'icon-park-outline:more-three',
+    items: [
+      { text: '系统设计', link: '/notes/design/', icon: '' },
+      { text: '分布式', link: '/notes/distributed/', icon: '' },
+      { text: '面试技巧', link: '/notes/tricks/', icon: '' },
+      { text: '项目', link: '/notes/projects/', icon: '' },
+      { text: '设计模式', link: '/notes/pattern/', icon: '' },
+    ],
   },
 ])
 
