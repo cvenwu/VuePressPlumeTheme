@@ -3,10 +3,27 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 export const zhNavbar = defineNavbarConfig([
   { text: '首页', link: '/' },
   { text: '博客', link: '/blog/' },
-  { text: '数据结构与算法', link: '/blog/tags/' },
-  { text: '基础', link: '/blog/archives/' },
+  { text: '标签', link: '/blog/tags/' },
+  { text: '归档', link: '/blog/archives/' },
   {
-    text: '基础2',
+    text: '数据结构与算法',
+    icon: 'material-symbols:book-outline',
+    link: '/notes/algo/数组.md',
+    // items: [
+    //     { text: '数组', link: '/notes/algo/array/', icon: '' },
+    //     { text: '链表', link: '/notes/algo/list/', icon: '' },
+    //     { text: '栈', link: '/notes/algo/stack/', icon: '' },
+    //     { text: '树', link: '/notes/algo/tree/', icon: '' },
+    //     { text: '排序', link: '/notes/algo/sort/', icon: '' },
+    //     icon-park-outline:data
+    //     { text: '队列', link: '/notes/algo/queue/', icon: '' },
+    //     { text: '图', link: '/notes/algo/graph/', icon: '' },
+    //     { text: '字符串', link: '/notes/algo/string/', icon: '' },
+    //     { text: '算法', link: '/notes/algo/algo', icon: '' },
+    // ],
+  },
+  {
+    text: '基础知识',
     icon: 'material-symbols:bookmarks-outline',
     items: [
       { text: '计算机网络', link: '/notes/network/', icon: '' },

@@ -7,9 +7,9 @@ export default defineUserConfig({
   lang: 'zh-CN',
   locales: {
     '/': {
-      title: 'yirufeng website',
+      title: 'yirufeng website444',
       lang: 'zh-CN',
-      description: 'yirufeng website',
+      description: 'yirufeng website44444',
     },
     '/en/': {
       title: 'yirufeng website',

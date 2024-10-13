@@ -29,9 +29,10 @@ export default defineThemeConfig({
   locales: {
     '/': {
       profile: {
-        avatar: 'https://theme-plume.vuejs.press/plume.png',
-        name: 'yirufeng website',
-        description: 'yirufeng website',
+        avatar: '../../b641d2de2d085.png',
+        // avatar: 'https://theme-plume.vuejs.press/plume.png',
+        name: 'yirufeng website3333',
+        description: 'yirufeng website3333',
         // circle: true,
         // location: '',
         // organization: '',
