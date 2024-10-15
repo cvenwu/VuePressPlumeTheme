@@ -2,7 +2,7 @@
  * @Author: cvenwu yirufeng@foxmail.com
  * @Date: 2024-10-11 11:04:01
  * @LastEditors: cvenwu yirufeng@foxmail.com
- * @LastEditTime: 2024-10-14 11:14:18
+ * @LastEditTime: 2024-10-15 15:12:56
  * @Description: 
  * 
  * Copyright (c) 2024 by yirufeng@foxmail.com, All Rights Reserved. 
@@ -29,13 +29,13 @@ export default defineThemeConfig({
   locales: {
     '/': {
       profile: {
-        avatar: 'https://cdn.jsdelivr.net/gh/cvenwu/UpicImageHosting@dev/uPic/2024-10-14/105913-cfd89dae2fd35.png',
+        avatar: 'https://gcore.jsdelivr.net/gh/sivanWu0222/ImageHosting@master/uPic/IMG_1966.JPG',
         // avatar: 'https://theme-plume.vuejs.press/plume.png',
-        name: 'yirufeng website3333',
-        description: 'yirufeng website3333',
-        // circle: true,
-        // location: '',
-        // organization: '',
+        name: 'yirufeng',
+        description: 'No Pains, No Gains',
+        circle: true,
+        location: 'Shenzhen, China',
+        organization: 'Tencent',
       },
 
       navbar: zhNavbar,

@@ -17,7 +17,9 @@ tags:
    2. 执行命令查看Go版本`go version`，如果没有任何错误提示表示环境搭建成功
 
 ### iota与const学习
-iota只能出现在const中，iota只有在const中才有累加效果，每行累加1，第一行从0开始
+> iota只能出现在const中，iota只有在const中才有累加效果，每行累加1，第一行从0开始
+
+<!-- more -->
 
 ![110715-Txlqq2](https://cdn.jsdelivr.net/gh/cvenwu/UpicImageHosting@dev/uPic/2024-10-15/110715-Txlqq2.png)
 
@@ -102,3 +104,18 @@ func main() {
 	fmt.Println(Mutex{})
 }
 ```
+
+
+### defer
+
+> [!IMPORTANT]
+> 当使用 `os.Exit` 时 defer 将不会 被执行。
+
+#### defer的执行顺序
+先写的defer先入栈，后执行
+![141602-wPGGQR](https://cdn.jsdelivr.net/gh/cvenwu/UpicImageHosting@dev/uPic/2024-10-15/141602-wPGGQR.png)
+
+#### return、defer谁先谁后
+![141625-OVneW1](https://cdn.jsdelivr.net/gh/cvenwu/UpicImageHosting@dev/uPic/2024-10-15/141625-OVneW1.png)
+如果同一个函数既有defer又有return，return会先执行，然后defer再执行
+defer表示当前函数生命周期全部结束之后才被出栈，当程序逻辑执行到最后的`}`之后才会执行出栈
