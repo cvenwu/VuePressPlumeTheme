@@ -1,15 +1,11 @@
 ---
-title: Go语言学习记录
+title: Go语言学习路线
 createTime: 2024/10/14 22:22:07
 author: yirufeng
 tags:
   - Go
 permalink: /article/z0jhswmh/
 ---
-
-
-## Go语言学习记录
-
 
 
 ## 第一步：Go By Example

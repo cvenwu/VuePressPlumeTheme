@@ -1,3 +1,12 @@
+/*
+ * @Author: cvenwu yirufeng@foxmail.com
+ * @Date: 2024-10-14 09:32:47
+ * @LastEditors: cvenwu yirufeng@foxmail.com
+ * @LastEditTime: 2024-10-15 13:11:22
+ * @Description: 
+ * 
+ * Copyright (c) 2024 by yirufeng@foxmail.com, All Rights Reserved. 
+ */
 import { webpackBundler } from '@vuepress/bundler-webpack'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
@@ -29,10 +38,11 @@ export default defineUserConfig({
        * Shiki 代码高亮
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
        */
-      // shiki: {
+      shiki: {
            // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
-      //   languages: ['shell', 'bash', 'typescript', 'javascript'],
-      // },
+        languages: ["js","ts","html","css","c++","go","shell"],
+        collapsedLines: true,
+      },
 
       /**
        * markdown enhance

@@ -2,7 +2,7 @@
  * @Author: cvenwu yirufeng@foxmail.com
  * @Date: 2024-10-11 11:04:01
  * @LastEditors: cvenwu yirufeng@foxmail.com
- * @LastEditTime: 2024-10-12 11:17:00
+ * @LastEditTime: 2024-10-14 11:14:18
  * @Description: 
  * 
  * Copyright (c) 2024 by yirufeng@foxmail.com, All Rights Reserved. 
@@ -15,7 +15,7 @@ import { enNotes, zhNotes } from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
+  logo: 'https://cdn.jsdelivr.net/gh/cvenwu/UpicImageHosting@dev/uPic/2024-10-14/111359-94a89f6e70a07-removebg-preview.png',
   // your git repo url
   docsRepo: '',
   docsDir: 'docs',
@@ -29,7 +29,7 @@ export default defineThemeConfig({
   locales: {
     '/': {
       profile: {
-        avatar: '../../b641d2de2d085.png',
+        avatar: 'https://cdn.jsdelivr.net/gh/cvenwu/UpicImageHosting@dev/uPic/2024-10-14/105913-cfd89dae2fd35.png',
         // avatar: 'https://theme-plume.vuejs.press/plume.png',
         name: 'yirufeng website3333',
         description: 'yirufeng website3333',
