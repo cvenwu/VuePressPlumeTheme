@@ -5,6 +5,7 @@ author: yirufeng
 permalink: /article/khzwm2gm/
 tags:
   - node
+  - 环境安装
 ---
 
 ## node环境设置
