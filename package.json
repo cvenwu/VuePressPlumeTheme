@@ -27,6 +27,7 @@
     "vuepress-theme-plume": "1.0.0-rc.107"
   },
   "dependencies": {
+    "mathjax-full": "^3.2.2",
     "yirufeng-website": "file:"
   }
 }
